@@ -37,7 +37,7 @@ public class Game {
 		//Start constructors
 		Health player1 = new Health(1);
 		Event survivalEvent = new Event();
-		Scores score = new Scores();
+		
 		//------------------------------------------------------------------------		
 	  survivalEvent.BiteEventGenerator(1);
 	  event = survivalEvent.BiteEventGenerator(1)+1; //So we don't die on Day 1
